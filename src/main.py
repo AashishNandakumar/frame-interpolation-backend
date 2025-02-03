@@ -31,7 +31,7 @@ s3_client = boto3.client(
     aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
     aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
 )
-hugging_face_client = Client("AashishNKumar/video-quality-enhancement")
+hugging_face_client = Client("AashishNandakumar/video-quality-enhancement")
 
 
 async def upload_to_s3(file: UploadFile, filename: str):
